@@ -33,3 +33,35 @@ a {
   color: #2196f3;
 }
 /*----------------------Main-----------------------------*/
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #20bd12; /*поставлю пока зеленым чтобы было его видно*/
+}
+
+button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+}
+
+.button-text {
+  width: 136px;
+  height: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/*--------------------------Footer-----------------------*/
