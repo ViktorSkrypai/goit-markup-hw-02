@@ -8,7 +8,7 @@ a {
 }
 
 /*----------------------Header-----------------------------*/
-.webstudio-logo {
+.webstudio-logo-header {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -21,7 +21,7 @@ a {
   color: #2196f3;
 }
 
-.nav-header-links {
+.header-links {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -29,10 +29,14 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.nav-header-links:hover {
+.header-links:hover {
   color: #2196f3;
 }
 /*----------------------Main-----------------------------*/
+.hero-section {
+  background: #2f303a;
+}
+
 h1 {
   font-family: Roboto;
   font-style: normal;
@@ -41,7 +45,7 @@ h1 {
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #20bd12; /*поставлю пока зеленым чтобы было его видно*/
+  color: #ffffff;
 }
 
 button {
@@ -64,4 +68,124 @@ button {
   color: #ffffff;
 }
 
+.advantages-title {
+  width: 270px;
+  height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advantages-text {
+  width: 270px;
+  height: 75px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.what-we-do-title {
+  width: 376px;
+  height: 42px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.what-we-do-photo {
+  margin-top: 50px;
+}
+
+.rover-title {
+  width: 264px;
+  height: 42px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.rover-photo {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.rover-name {
+  width: 151px;
+  height: 19px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.rover-position {
+  width: 130px;
+  height: 19px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 /*--------------------------Footer-----------------------*/
+
+.footer {
+  background: #2f303a;
+}
+
+.webstudio-logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.adress-link {
+  width: 231px;
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.contacts-link {
+  width: 231px;
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
