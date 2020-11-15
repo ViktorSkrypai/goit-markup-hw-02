@@ -1,12 +1,3 @@
-body {
-  background-color: #fff;
-  color: #757575;
-}
-
-.list {
-  list-style: none;
-}
-
 /*цвет основного текста #212121 */
 
 /*вторичный цвет текста #757575 */
@@ -21,21 +12,89 @@ body {
 
 /*футер бекграунд #2F303A */
 
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --footer-text-color: #ffffff;
+}
+
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
 .logo {
-  color: #000000;
+  color: var(--title-text-color);
 }
 
 .web-logo {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.logo:hover {
+  color: var(--accent-color);
 }
 
 /*Site nav*/
 
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.header-adress .adress-link {
+  color: var(--primary-text-color);
+}
+
+.header-adress .adress-link:hover,
+.header-adress .adress-link:focus {
+  color: var(--accent-color);
+}
+
+/*Section*/
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*Hero*/
+
+.hero-section {
+  background-color: #2f303a;
+}
+
+.hero {
+  color: #ffffff;
+}
+/*Button*/
+
+.button-text {
+  color: #ffffff;
+}
+
+/*Преимущества*/
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+/*Наша команда*/
+
+.our-team .title {
+  color: var(--title-text-color);
+}
+
+/*Footer*/
+
+.footer {
+  background-color: #2f303a;
 }
