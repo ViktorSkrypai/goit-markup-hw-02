@@ -69,8 +69,6 @@ button {
 }
 
 .advantages-title {
-  width: 270px;
-  height: 16px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -82,8 +80,6 @@ button {
 }
 
 .advantages-text {
-  width: 270px;
-  height: 75px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -94,8 +90,6 @@ button {
 }
 
 .what-we-do-title {
-  width: 376px;
-  height: 42px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -103,33 +97,19 @@ button {
   line-height: 42px;
   letter-spacing: 0.03em;
   color: #212121;
-}
-
-.what-we-do-photo {
-  margin-top: 50px;
 }
 
 .rover-title {
-  width: 264px;
-  height: 42px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 
-.rover-photo {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
 .rover-name {
-  width: 151px;
-  height: 19px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -139,8 +119,6 @@ button {
   color: #212121;
 }
 .rover-position {
-  width: 130px;
-  height: 19px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -167,8 +145,6 @@ button {
 }
 
 .adress-link {
-  width: 231px;
-  height: 21px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -179,8 +155,6 @@ button {
 }
 
 .contacts-link {
-  width: 231px;
-  height: 21px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
