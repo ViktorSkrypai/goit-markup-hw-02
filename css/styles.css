@@ -1,5 +1,10 @@
 body {
-  background-color: #ffffff;
+  background-color: #fff;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
 }
 
 /*цвет основного текста #212121 */
@@ -8,6 +13,29 @@ body {
 
 /* белый #FFFFFF */
 
-/* серый #F5F4FA */
+/* вторичный цвет фона "наша команда" #F5F4FA */
 
 /*акцент #2196F3 */
+
+/* цвет почты и ном телефона футер rgba(255, 255, 255, 0.6); */
+
+/*футер бекграунд #2F303A */
+
+.logo {
+  color: #000000;
+}
+
+.web-logo {
+  color: #2196f3;
+}
+
+/*Site nav*/
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
