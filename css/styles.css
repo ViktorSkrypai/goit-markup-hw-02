@@ -16,11 +16,14 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --footer-text-color: #ffffff;
+  --secondary-text-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --primary-bg-golor: #ffffff;
+  --secondary-bg-color: #2f303a;
 }
 
 body {
-  background-color: #fff;
+  background-color: var(--secondary-text-color);
   color: var(--primary-text-color);
 }
 
@@ -36,18 +39,14 @@ body {
   color: var(--accent-color);
 }
 
-.logo:hover {
-  color: var(--accent-color);
-}
-
 /*Site nav*/
 
 .site-nav .link {
   color: var(--title-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -55,8 +54,8 @@ body {
   color: var(--primary-text-color);
 }
 
-.header-adress .adress-link:hover,
-.header-adress .adress-link:focus {
+.adress-link:hover,
+.adress-link:focus {
   color: var(--accent-color);
 }
 
@@ -69,19 +68,21 @@ body {
 /*Hero*/
 
 .hero-section {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 
 .hero {
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 /*Button*/
 
 .button-text {
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
-/*Преимущества*/
+.button {
+  background-color: var(--accent-color);
+}
 
 .features .title {
   color: var(--title-text-color);
@@ -96,5 +97,27 @@ body {
 /*Footer*/
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
+}
+
+.footer-logo {
+  color: var(--secondary-text-color);
+}
+
+.footer-adress .link {
+  color: var(--secondary-text-color);
+}
+
+.footer-contact {
+  color: var(--secondary-white-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
 }
