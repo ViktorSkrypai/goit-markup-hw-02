@@ -36,7 +36,6 @@ body {
 .logo {
   color: var(--title-text-color);
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -83,6 +82,10 @@ body {
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
 }
 
 /*Hero*/
@@ -93,26 +96,52 @@ body {
 
 .hero {
   color: var(--secondary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /*Button*/
 
 .button-text {
   color: var(--secondary-text-color);
-  font-family: inherit;
 }
 
 .button {
   background-color: var(--accent-color);
+  font-family: inherit;
 }
 
 .features .title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 /*Наша команда*/
 
 .our-team .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
 /*Footer*/
