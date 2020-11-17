@@ -20,11 +20,13 @@
   --secondary-white-color: rgba(255, 255, 255, 0.6);
   --primary-bg-golor: #ffffff;
   --secondary-bg-color: #2f303a;
+  --buttons-bg-color: #f5f4fa;
 }
 
 body {
   background-color: var(--secondary-text-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -33,6 +35,13 @@ body {
 
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .web-logo {
@@ -43,6 +52,11 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .link:hover,
@@ -52,6 +66,12 @@ body {
 
 .header-adress .adress-link {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .adress-link:hover,
@@ -78,6 +98,7 @@ body {
 
 .button-text {
   color: var(--secondary-text-color);
+  font-family: inherit;
 }
 
 .button {
@@ -102,14 +123,29 @@ body {
 
 .footer-logo {
   color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .footer-adress .link {
   color: var(--secondary-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .footer-contact {
   color: var(--secondary-white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .link:hover,
@@ -120,4 +156,38 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
+}
+
+/*--------------------Portfolio-------------------*/
+
+.port-button {
+  background-color: var(--buttons-bg-color);
+  font-family: inherit;
+}
+
+.port-button:hover,
+.port-button:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+.works-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.works-description {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+.port-button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
