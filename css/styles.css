@@ -58,6 +58,10 @@ body {
   text-decoration: none;
 }
 
+.site-nav .link.is-current {
+  color: var(--accent-color);
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
