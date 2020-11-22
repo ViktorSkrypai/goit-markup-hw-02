@@ -215,16 +215,17 @@ body {
 }
 
 .works-description {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
+}
+
+.works-examples {
+  text-decoration: none;
 }
 
 .port-button-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-}
-
-.works-examples {
-  text-decoration: none;
 }
