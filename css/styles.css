@@ -224,3 +224,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
 }
+
+.works-examples {
+  text-decoration: none;
+}
