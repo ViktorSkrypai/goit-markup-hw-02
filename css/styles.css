@@ -198,6 +198,13 @@ body {
 .port-button {
   background-color: var(--secondary-grey-bg-color);
   font-family: inherit;
+  color: var(--title-text-color);
+}
+
+.port-button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .port-button:hover,
@@ -222,11 +229,4 @@ body {
 
 .works-examples {
   text-decoration: none;
-}
-
-.port-button-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  color: var(--title-text-color);
 }
